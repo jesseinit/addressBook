@@ -1,0 +1,31 @@
+body {
+	padding-top: 70px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-container {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+}
+.form-container > form {
+	width: 60%;
+}
+
+.form-container > .alert {
+	width: 60%;
+}
+
+
+@media (min-width: 720px) {
+	.form-container {
+		width: 40%;
+	}
+	.form-container > form {
+		width: 70%;
+	}
+
+}
